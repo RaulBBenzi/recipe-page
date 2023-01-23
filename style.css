@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: #eaeaea;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10%;
+  font-family: 'Roboto', sans-serif;
+  line-height: 3em;
+  font-weight: 400;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 0%;
+  border-radius: 10px 10px;
+  color: #39393a;
+}
+
+.divback {
+    margin: 6%;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  width: 2000px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px 10px;
+  object-fit:cover
+}
+
+.subimg{
+  display: flex;
+  justify-content: end;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-weight: 700 bold;
+  color: #1b1b1b;
+}
+
+
+li.ingredientes{
+  list-style: disc;
+}
+
+li.preparo{
+  list-style: decimal;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  
+}
